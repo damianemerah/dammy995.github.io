@@ -926,3 +926,15 @@ h3 {
   color: #212121;
   margin-bottom: 0.8rem;
 } /*# sourceMappingURL=main.css.map */
+
+.video {
+  display: flex;
+  margin: 8rem;
+}
+
+.video-item {
+  margin: 0 auto;
+  max-width: 90rem;
+  min-height: 50rem;
+  width: 100%;
+}
