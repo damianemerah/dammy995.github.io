@@ -270,4 +270,11 @@
   navLinks.forEach((el) => {
     el.addEventListener("click", scrollHandler);
   });
+
+  document.querySelector(".header__btn").addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const video = document.querySelector(".video");
+    scrollToElement(video);
+  });
 </script>
