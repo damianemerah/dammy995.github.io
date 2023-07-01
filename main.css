@@ -25,7 +25,8 @@
 }
 @media only screen and (max-width: 56.25em) {
   .about__text-wrapper {
-    padding: 0 5rem;
+    padding: 0 4rem;
+    margin: 0 auto;
   }
 }
 .about__text-wrapper h3 {
