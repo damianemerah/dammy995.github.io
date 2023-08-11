@@ -1,0 +1,19 @@
+{
+  "name": "folkify",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Damian",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
