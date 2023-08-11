@@ -708,6 +708,10 @@ body {
   grid-gap: 5rem;
   justify-items: center;
 }
+
+.footer__list-box {
+  text-align: center;
+}
 .footer__list-items {
   list-style: none;
 }
