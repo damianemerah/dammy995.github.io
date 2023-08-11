@@ -154,13 +154,13 @@
   background-image: linear-gradient(
     to right,
     #00c9af,
-    #00c9af 40%,
-    transparent 40%
+    #00c9af 50%,
+    transparent 50%
   );
 }
 .about__item-level--py::after,
 .about__item-level--py::before {
-  left: 40%;
+  left: 50%;
 }
 
 .about__item-level--node {
@@ -179,13 +179,13 @@
   background-image: linear-gradient(
     to right,
     #00c9af,
-    #00c9af 30%,
-    transparent 30%
+    #00c9af 55%,
+    transparent 55%
   );
 }
 .about__item-level--sql::before,
 .about__item-level--sql::after {
-  left: 30%;
+  left: 55%;
 }
 .about__item-level--mongo {
   background-image: linear-gradient(

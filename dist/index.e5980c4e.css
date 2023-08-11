@@ -149,11 +149,11 @@
 }
 
 .about__item-level--py {
-  background-image: linear-gradient(to right, #00c9af, #00c9af 40%, #0000 40%);
+  background-image: linear-gradient(to right, #00c9af, #00c9af 50%, #0000 50%);
 }
 
 .about__item-level--py:after, .about__item-level--py:before {
-  left: 40%;
+  left: 50%;
 }
 
 .about__item-level--node {
@@ -165,11 +165,11 @@
 }
 
 .about__item-level--sql {
-  background-image: linear-gradient(to right, #00c9af, #00c9af 30%, #0000 30%);
+  background-image: linear-gradient(to right, #00c9af, #00c9af 55%, #0000 55%);
 }
 
 .about__item-level--sql:before, .about__item-level--sql:after {
-  left: 30%;
+  left: 55%;
 }
 
 .about__item-level--mongo {
