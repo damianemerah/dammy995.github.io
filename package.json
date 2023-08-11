@@ -2,14 +2,18 @@
   "name": "folkify",
   "version": "1.0.0",
   "description": "Portfolio",
+  "source": {
+    "index": "src/index.html",
+    "project": "src/project.html"
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build"
   },
   "author": "Damian",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0",
+    "parcel": "latest",
     "process": "^0.11.10"
   },
   "dependencies": {

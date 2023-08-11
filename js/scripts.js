@@ -1,11 +1,8 @@
-import "core-js/stable";
-import "regenerator-runtime/runtime";
-
 const navLinks = document.querySelectorAll(".scroll");
-// const footerLink = document.querySelectorAll(".footer__list");
 const forward = document.querySelectorAll(".material-symbols-sharp--1");
 const backward = document.querySelectorAll(".material-symbols-sharp--2");
 const demoBtn = document.querySelector(".video--demo");
+const header = document.querySelector(".header");
 
 function scrollToElement(element) {
   element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -59,6 +56,8 @@ function resetSlide() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
+  scrollToElement(header);
+
   resetSlide();
 });
 
@@ -96,7 +95,6 @@ const observer = new ResizeObserver((entries) => {
           el.style.display = "none";
         });
       } else if (entry.contentRect.width <= 900) {
-        console.log("less than 900");
         const parentEl = document.querySelectorAll(".slide-box");
         parentEl.forEach((el) => {
           const slideChild = el.querySelectorAll(".slide");
@@ -128,7 +126,6 @@ forward.forEach((el) => {
     let maxSlide = slideChild.length - 1;
 
     if (+parentEl.dataset.curSlide == maxSlide) {
-      console.log(true);
       curSlide = 0;
       parentEl.dataset.curSlide = 0;
       goToSlide(slideChild, curSlide);
