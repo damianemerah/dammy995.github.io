@@ -700,6 +700,10 @@ body {
   display: grid;
 }
 
+.footer__list-box {
+  text-align: center;
+}
+
 .footer__list-items {
   list-style: none;
 }

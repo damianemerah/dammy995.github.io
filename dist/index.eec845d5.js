@@ -578,6 +578,7 @@ const navLinks = document.querySelectorAll(".scroll");
 const forward = document.querySelectorAll(".material-symbols-sharp--1");
 const backward = document.querySelectorAll(".material-symbols-sharp--2");
 const demoBtn = document.querySelector(".video--demo");
+const header = document.querySelector(".header");
 function scrollToElement(element) {
     element.scrollIntoView({
         behavior: "smooth",
@@ -622,6 +623,7 @@ function resetSlide() {
     });
 }
 document.addEventListener("DOMContentLoaded", function() {
+    scrollToElement(header);
     resetSlide();
 });
 function updateLayout() {
