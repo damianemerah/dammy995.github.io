@@ -57,7 +57,10 @@ function resetSlide() {
 
 document.addEventListener("DOMContentLoaded", function () {
   scrollToElement(header);
+<<<<<<< HEAD
 
+=======
+>>>>>>> f80b5a0b88b4233ff06da5cea5554b85fd133529
   resetSlide();
 });
 
