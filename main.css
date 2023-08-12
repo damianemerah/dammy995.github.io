@@ -663,6 +663,16 @@ body {
   padding: 8rem 0;
 }
 
+@media only screen and (max-width: 56.25em) {
+  .category,
+  .about,
+  .review,
+  .contact,
+  .services {
+    padding: 4rem 0;
+  }
+}
+
 .header {
   font-size: 1.6rem;
   background-image: linear-gradient(
