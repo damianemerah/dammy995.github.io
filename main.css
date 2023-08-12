@@ -154,22 +154,13 @@
   background-image: linear-gradient(
     to right,
     #00c9af,
-<<<<<<< HEAD
-    #00c9af 40%,
-    transparent 40%
-=======
     #00c9af 50%,
     transparent 50%
->>>>>>> f80b5a0b88b4233ff06da5cea5554b85fd133529
   );
 }
 .about__item-level--py::after,
 .about__item-level--py::before {
-<<<<<<< HEAD
-  left: 40%;
-=======
   left: 50%;
->>>>>>> f80b5a0b88b4233ff06da5cea5554b85fd133529
 }
 
 .about__item-level--node {
@@ -188,22 +179,13 @@
   background-image: linear-gradient(
     to right,
     #00c9af,
-<<<<<<< HEAD
-    #00c9af 30%,
-    transparent 30%
-=======
     #00c9af 55%,
     transparent 55%
->>>>>>> f80b5a0b88b4233ff06da5cea5554b85fd133529
   );
 }
 .about__item-level--sql::before,
 .about__item-level--sql::after {
-<<<<<<< HEAD
-  left: 30%;
-=======
   left: 55%;
->>>>>>> f80b5a0b88b4233ff06da5cea5554b85fd133529
 }
 .about__item-level--mongo {
   background-image: linear-gradient(
