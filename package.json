@@ -2,10 +2,7 @@
   "name": "folkify",
   "version": "1.0.0",
   "description": "Portfolio",
-  "source": {
-    "index": "src/index.html",
-    "project": "src/project.html"
-  },
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build"
