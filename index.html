@@ -96,56 +96,47 @@
       </div>
     </header>
     <main class="main">
-      <section class="services">
+      <section class="services" id="services">
         <h2 class="category-h2">Services</h2>
         <div class="container services-box">
           <div class="service__card category__active--1">
             <svg class="service__svg">
-              <use href="/img/svg/logo.svg#code"></use>
+              <use href="/img/svg/sprite.svg#plane"></use>
             </svg>
             <h4>App development</h4>
-            Transforming ideas into intuitive, powerful applications that stand
-            out in the digital landscape.
+            <p>
+              Building React and Node.js applications with clean architecture,
+              test coverage, and performance optimization to deliver exceptional
+              user experiences.
+            </p>
           </div>
           <div class="service__card category__active--2">
             <svg class="service__svg">
               <use href="/img/svg/sprite.svg#dev"></use>
             </svg>
             <h4>API Integration</h4>
-            Seamlessly connecting systems, enabling your applications to
-            communicate and collaborate effortlessly.
+            <p>
+              Implementing RESTful APIs, GraphQL, and webhooks to connect your
+              applications with third-party services like payment gateways and
+              social platforms.
+            </p>
           </div>
           <div class="service__card category__active--1">
             <svg class="service__svg">
               <use href="/img/svg/logo.svg#code"></use>
             </svg>
             <h4>Full-Stack development</h4>
-            Crafting end-to-end solutions that marry powerful front-end
-            experiences with robust back-end functionality.
+            <p>
+              Creating complete web applications using MongoDB, Express, React
+              and Node.js with features like authentication, real-time updates,
+              and cloud deployment.
+            </p>
           </div>
         </div>
       </section>
       <section class="category">
         <div class="category-box project-box">
-          <h4 class="title category__title text-up">Projects</h4>
           <h2 class="category-h2">Featured Projects</h2>
-          <p class="container category__text">
-            Explore Dreamville projects aimed at refining property search. From
-            smart sorting to easy bookmarking, witness my passion for enhancing
-            real estate experiences.
-          </p>
-          <div class="category__icons">
-            <p>Technologies:</p>
-            <svg class="nodejs-icon about__item-svg">
-              <use href="/img/svg/logo.svg#icons8-nodejs-50"></use>
-            </svg>
-            <svg class="about__item-svg">
-              <use href="/img/svg/logo.svg#icons8-mongodb-50"></use>
-            </svg>
-            <svg class="about__item-svg">
-              <use href="/img/svg/logo.svg#icons8-javascript-50"></use>
-            </svg>
-          </div>
           <div class="container project-box">
             <div
               class="slide-box category__card-box"
@@ -162,16 +153,19 @@
                 <div class="category__card category__active--1">
                   <div class="category__img">
                     <img
-                      src="/img/dreamland1.png"
+                      src="/img/acc-gen.png"
                       alt="Website Feature"
                       class="category__icon"
                     />
                   </div>
-                  <h4 class="category__card-h4">Smart Property Sorting</h4>
+                  <h4 class="category__card-h4">
+                    SMS Verification & Social Growth Platform
+                  </h4>
                   <p class="category__card-text">
-                    Easily filter and find properties. Effortless discovery for
-                    your ideal home.
+                    Get instant SMS verification codes, grow your social media
+                    presence, and buy premium accounts.
                   </p>
+                  <a href="https://www.acc-gen.net">View Live App</a>
                 </div>
               </div>
               <!-- <div class="category__box"> -->
@@ -179,16 +173,19 @@
                 <div class="category__card category__active--2">
                   <div class="category__img">
                     <img
-                      src="/img/dreamland2.png"
+                      src="/img/grind.png"
                       alt="Website Feature"
                       class="category__icon"
                     />
                   </div>
-                  <h4 class="category__card-h4">Bookmark for Easy Viewing</h4>
+                  <h4 class="category__card-h4">
+                    TON Community Engagement Protocol
+                  </h4>
                   <p class="category__card-text">
-                    Save favorites, compare listings. Streamline property
-                    exploration.
+                    A decentralized protocol built on TON, incentivizing active
+                    participation and interaction within the crypto community
                   </p>
+                  <a href="https://www.grindprotocol.xyz">View Live App</a>
                 </div>
               </div>
               <!-- </div> -->
@@ -196,159 +193,177 @@
                 <div class="category__card category__active--1">
                   <div class="category__img">
                     <img
-                      src="/img/dreamland3.png"
+                      src="/img/dekato.png"
                       alt="Website Feature"
                       class="category__icon"
                     />
                   </div>
-                  <h4 class="category__card-h4">Become a Property Agent</h4>
+                  <h4 class="category__card-h4">Modern E-commerce Platform</h4>
                   <p class="category__card-text">
-                    Join, post, connect. Shape the real estate market.
+                    A full-featured online store with secure payments, product
+                    management, and seamless shopping experience.
                   </p>
+                  <a href="https://www.dekato.ng">View Demo App</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="project--action">
-            <a href="/projects.html" class="btn header__btn projects"
+            <a
+              href="https://github.com/damianemerah"
+              target="_blank"
+              rel="noopener"
+              class="btn header__btn projects"
               >More Projects
             </a>
-            <a href="/projects.html" class="btn header__btn btn--demo"
-              >App Demo</a
-            >
           </div>
         </div>
       </section>
       <div class="container lines">
         <div class="star"></div>
       </div>
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="about-h3 title text-center">About Me</h3>
         <h2 class="about-h2">Who am I?</h2>
         <div class="about__wrapper container">
-          <div class="about__img-wrapper">
-            <img
-              src="./img/tim-bogdanov-4uojMEdcwI8-unsplash.jpg"
-              alt="Developer"
-              class="about__img"
-            />
-          </div>
+          <img
+            src="./img/profile_pic.jpeg"
+            alt="Developer"
+            class="about__img"
+          />
           <div class="about__text-wrapper">
             <p>
-              Welcome to my portfolio! I'm a motivated software engineer who
-              thrives on challenges and continuous learning. This website, a
-              reflection of my time at
-              <a href="https://www.alxafrica.com/" target="_blank"
-                >Holberton School</a
-              >, showcases my journey and capabilities in software development.
-              Here, you can explore my projects, skills, and achievements.
+              When I'm not arguing with my rubber duck debugger, I'm crafting
+              digital experiences that make users go "wow!" (or at least "huh,
+              neat"). I turn complex problems into elegant solutions, usually
+              with the help of my trusty sidekick - coffee.
             </p>
             <br />
             <p>
-              I'm passionate about crafting innovative and user-friendly
-              full-stack applications. With experience in successfully building
-              and deploying web applications, I'm actively seeking a challenging
-              and stimulating software engineering role. Continuously expanding
-              my skill set by learning popular frameworks like ReactJS, I'm
-              excited to bring my expertise, creativity, and dedication to a
-              dynamic team environment.
+              From pixel-perfect frontends to robust backend systems, I build
+              stuff that works and delights. Currently seeking my next adventure
+              where I can push pixels and break/fix things professionally.
             </p>
             <br />
             <p>
-              I'm committed to learning new technologies and adopting best
-              practices in software engineering. My goal is to deliver
-              exceptional results and contribute to the success of any
-              organization I'm a part of.
-            </p>
-            <br />
-            <p>
-              Connect with me on LinkedIn, explore my code on
-              <a href="https://github.com/dammy995" target="_blank">GitHub</a>,
-              and follow me on Twitter to stay updated on my professional
-              journey beyond this portfolio. Don't forget to check out the
-              GitHub repository for this project to see the code and
-              documentation.
+              Curious about my code? Find me on
+              <a href="https://github.com/dammy995" target="_blank">GitHub</a>
+              where I'm probably refactoring something that was working
+              perfectly fine. Let's build something awesome together!
             </p>
           </div>
         </div>
+      </section>
 
-        <div class="container skill__level">
-          <h3 class="about-h3 title">SKILLS</h3>
-          <div class="skills">
-            <div class="skill__wrapper">
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-html-logo-50"></use>
-                  </svg>
-                  <p>html</p>
-                </div>
-                <div class="about__item-level about__item-level--html"></div>
-              </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-css-logo"></use>
-                  </svg>
-                  <p>css</p>
-                </div>
-                <div class="about__item-level about__item-level--css"></div>
-              </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-javascript-50"></use>
-                  </svg>
-                  <p>javascript</p>
-                </div>
-                <div class="about__item-level about__item-level--jav"></div>
-              </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-react"></use>
-                  </svg>
-                  <p>React</p>
-                </div>
-                <div class="about__item-level about__item-level--sql"></div>
+      <section class="container skill__level">
+        <h2>STACK</h2>
+        <div class="skills">
+          <div class="skill__wrapper">
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-html-logo-50"></use>
+                </svg>
+                <p>html</p>
               </div>
             </div>
-            <div class="skill_wrapper">
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-python-50"></use>
-                  </svg>
-                  <p>Python</p>
-                </div>
-                <div class="about__item-level about__item-level--py"></div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-css-logo"></use>
+                </svg>
+                <p>css</p>
               </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="nodejs-icon about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-nodejs-50"></use>
-                  </svg>
-                  <p>Nodejs</p>
-                </div>
-                <div class="about__item-level about__item-level--node"></div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-javascript-50"></use>
+                </svg>
+                <p>javascript</p>
               </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="mysql-icon about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-mongodb-50"></use>
-                  </svg>
-                  <p>Mongodb</p>
-                </div>
-                <div class="about__item-level about__item-level--mongo"></div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-react"></use>
+                </svg>
+                <p>React</p>
               </div>
-              <div class="about__item">
-                <div class="about__item-name">
-                  <svg class="mysql-icon about__item-svg">
-                    <use href="/img/svg/logo.svg#icons8-mysql-logo-50"></use>
-                  </svg>
-                  <p>Mysql</p>
-                </div>
-                <div class="about__item-level about__item-level--sql"></div>
+            </div>
+
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-python-50"></use>
+                </svg>
+                <p>Python</p>
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="nodejs-icon about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-nodejs-50"></use>
+                </svg>
+                <p>Nodejs</p>
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg class="about__item-svg">
+                  <use href="/img/svg/logo.svg#icons8-mongodb-50"></use>
+                </svg>
+                <p>Mongodb</p>
+              </div>
+            </div>
+            <div class="about__item">
+              <div class="about__item-name">
+                <svg
+                  class="about__item-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="256"
+                  height="256"
+                  viewBox="0 0 256 256"
+                >
+                  <defs>
+                    <linearGradient
+                      id="logosNextjsIcon0"
+                      x1="55.633%"
+                      x2="83.228%"
+                      y1="56.385%"
+                      y2="96.08%"
+                    >
+                      <stop offset="0%" stop-color="#fff" />
+                      <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="logosNextjsIcon1"
+                      x1="50%"
+                      x2="49.953%"
+                      y1="0%"
+                      y2="73.438%"
+                    >
+                      <stop offset="0%" stop-color="#fff" />
+                      <stop offset="100%" stop-color="#fff" stop-opacity="0" />
+                    </linearGradient>
+                    <circle id="logosNextjsIcon2" cx="128" cy="128" r="128" />
+                  </defs>
+                  <mask id="logosNextjsIcon3" fill="#fff">
+                    <use href="#logosNextjsIcon2" />
+                  </mask>
+                  <g mask="url(#logosNextjsIcon3)">
+                    <circle cx="128" cy="128" r="128" />
+                    <path
+                      fill="url(#logosNextjsIcon0)"
+                      d="M212.634 224.028L98.335 76.8H76.8v102.357h17.228V98.68L199.11 234.446a128 128 0 0 0 13.524-10.418"
+                    />
+                    <path
+                      fill="url(#logosNextjsIcon1)"
+                      d="M163.556 76.8h17.067v102.4h-17.067z"
+                    />
+                  </g>
+                </svg>
+                <p>NextJs</p>
               </div>
             </div>
           </div>
@@ -375,12 +390,13 @@
           <div class="footer__list-box">
             <h3 class="footer__list-heading">Quick Links</h3>
             <ul class="footer__list">
-              <li class="footer__list-items">About Me</li>
-              <li class="footer__list-items">Services</li>
-
               <li class="footer__list-items">
-                <a href="/projects.html" class="footer__link link">My Work</a>
+                <a href="#about" class="footer__link link">About Me</a>
               </li>
+              <li class="footer__list-items">
+                <a href="#services" class="footer__link link">Services</a>
+              </li>
+
               <li class="footer__list-items">
                 <a
                   href="mailto:damianemerah@gmail.com"
